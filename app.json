@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "GuideToComfort",
-    "slug": "GuideToComfort",
+    "name": "AGuideToComfort",
+    "slug": "AGuideToComfort",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,17 +17,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.seanlee.AGuideToComfort",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "icon": "./assets/icon.png",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundImage": "./assets/adaptive-icon-background.png"
-      }
+      },
+      "package": "com.seanlee.AGuideToComfort",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "androidNavigationBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#000000"
     }
   }
 }
